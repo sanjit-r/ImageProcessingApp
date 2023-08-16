@@ -1,0 +1,64 @@
+If you want to load in a script text file the command line argument is:
+java -jar Program.jar -file path-of-script-file
+
+If you want to use the interactive text option:
+java -jar Program.jar -text
+
+If you want to use the GUI, or just double-click on the JAR file.
+java -jar Program.jar
+
+
+
+Interactive Text Section:
+
+All examples of the commands are listed below:
+Must load a file before anything else.
+
+Brightness and Darken:
+brighten 20 website website-brighter
+darken 30 website website-darker
+
+All other image processing command examples: 
+sharpen website website-sharpen
+
+blur website website-blur
+
+sepia website website-sepia
+
+greyscale website website-greyscale
+
+red-component website website-red
+
+blue-component website website-blue
+
+green-component website website-green
+
+horizontal-flip website website-horizontal
+
+vertical-flip website website-vertical
+
+luma-component website website-luma
+
+intensity-component website website-intensity
+
+value-component website website-value
+
+Saving should be done after image processing:
+
+save res/website-sharpen.jpg website-sharpen
+
+
+GUI USEME:
+
+- Make sure the application is in full screen
+- Click open file on the menu bar on the right of the screen
+- Double click res and select an image, for this case, select website.jpg
+- Below there will be a histogram, and in the main frame, the picture of the image
+- Select one of the effects, so flip vertical, flip horizontal, darken, brighten, sharpen, blur,
+sepia tone, greyscale, redcomponent, greencomponent, blue component, luma component, intensity
+component, or value component
+- There will now display a new Histogram to match the new image
+- To save the image, simply press save as, and save the file.
+  The file will be saved to the overall project folder by default.
+  Make sure you specify the format at the end of the file(eg: website-grey.png)
+  Please check the overall Assignment 6 folder to see the file!
