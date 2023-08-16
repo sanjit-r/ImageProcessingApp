@@ -1,0 +1,4 @@
+load res/website.jpg website
+sepia website website-sepia
+save res/website-sepia.jpg website-sepia
+

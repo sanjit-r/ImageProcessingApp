@@ -1,0 +1,47 @@
+
+load res/website.jpg example
+
+brighten 20 website website-brighter
+save res/website-brighter.jpg website-brighter
+
+darken 30 website website-darker
+save res/website-darker.jpg website-darker
+
+sharpen website website-sharpen
+save res/website-sharpen.jpg website-sharpen
+
+blur website website-blur
+save res/website-blur.jpg website-blur
+
+sepia website website-sepia
+save res/website-sepia.jpg website-sepia
+
+greyscale website website-greyscale
+save res/website-greyscale.jpg website-greyscale
+
+red-component website website-red
+save res/website-red.jpg website-red
+
+blue-component website website-blue
+save res/website-blue.jpg website-blue
+
+green-component website website-green
+save res/website-green.jpg website-green
+
+horizontal-flip website website-horizontal
+save res/website-horizontal.jpg website-horizontal
+
+vertical-flip website website-vertical
+save res/website-vertical.jpg website-vertical
+
+luma-component website website-luma
+save res/website-luma.jpg website-luma
+
+intensity-component website website-intensity
+save res/website-intensity.bmp website-intensity
+
+value-component website website-value
+save res/website-value.ppm website-value
+
+q
+
